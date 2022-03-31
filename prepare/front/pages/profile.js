@@ -1,7 +1,7 @@
-import AppLayout from "../components/AppLayout";
+import AppLayout from '../components/AppLayout';
 import Head from "next/head";
-import NicknameEditForm from "../components/NicknameEditForm";
-import FollowList from "../components/FollowList";
+import NicknameEditForm from '../components/NicknameEditForm';
+import FollowList from '../components/FollowList';
 
 const Profile = () => {
   const followerList = [{nickname: '루디'}, {nickname: '루피'}];
