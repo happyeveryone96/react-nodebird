@@ -8,6 +8,10 @@ export const initialState = {
     content: '첫 번째 게시글 #해시태그',
     Images: [{
       src: 'https://cdn.pixabay.com/photo/2022/01/25/12/53/tree-6966126__480.jpg'
+    }, {
+      src: 'https://cdn.pixabay.com/photo/2022/01/25/12/53/tree-6966126__480.jpg'
+    }, {
+      src: 'https://cdn.pixabay.com/photo/2022/01/25/12/53/tree-6966126__480.jpg'
     }],
     Comments: [{
       User: {
