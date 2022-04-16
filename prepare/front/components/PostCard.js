@@ -27,7 +27,7 @@ const PostCard = ({ post }) => {
     })
   })
   const id = useSelector((state) => state.user.me?.id);
-
+  
   return (
     <div style={{ marginBottom: 10 }}>
       <Card
