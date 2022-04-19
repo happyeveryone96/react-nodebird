@@ -5,6 +5,7 @@ import { Button, Card, Popover, Avatar, List, Comment } from 'antd';
 import { RetweetOutlined, HeartOutlined, MessageOutlined, EllipsisOutlined, HeartTwoTone } from '@ant-design/icons';
 import PostImages from './PostImages';
 import CommentForm from './CommentForm';
+import FollowButton from './FollowButton';
 import PostCardContent from './PostCardContent';
 import { REMOVE_POST_REQUEST } from '../reducers/post';
 
@@ -55,6 +56,7 @@ const PostCard = ({ post }) => {
             <EllipsisOutlined />
           </Popover>
         ]}
+        extra={id && <FollowButton post={post} />}
       >
         <Card.Meta
           avatar={<Avatar>{post.User.nickname[0]}</Avatar>}
